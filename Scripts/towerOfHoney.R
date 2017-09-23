@@ -1,8 +1,9 @@
 
+'%+%' <- function(x, y)paste0(x,y)
+
 println<-function(format,...){
-  x<-sprintf(format,...)
-  x<-sprintf("%s\n",x)
-  cat(x)  
+    line <- sprintf(format, ...) %+% "\n"
+    cat(line)
 }
 if(FALSE) {
   println("x=%s", 10)
