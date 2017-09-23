@@ -22,4 +22,5 @@ towerOfHoney<-function(n, src, dest, temp)
 }
 if(FALSE){
   towerOfHoney(3, "A", "B", "C")
+  towerOfHoney(5, "A", "B", "C")
 }
